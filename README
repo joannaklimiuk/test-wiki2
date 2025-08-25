@@ -1,25 +1,3 @@
- Welcome to the Intel Curated Repo of kerberos
-============================================
-
-You can find the full, unaltered Readme.MD from the kerberos project
-below.
-
-This repo contains the source for branches of kerberos that are curated
-and updated to contain all security fixes. This includes older versions that have
-had security fixes backported to them.
-
-Branches with Intel fixes (and Intel version numbers) have been created for all
-supported releases. The current supported branches are: https://github.com/joannaklimiuk/test-wiki2/milestones
-
-The following flags were set for IPAS compliance:
-```
-compiler -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fPIE -fPIC -fcf-protection=full -fstack-clash-protection
-linker -Wl,-z,relro,-z,now
-```
-
-Other Intel information, including build commands, can be found on the [wiki](https://github.com/joannaklimiuk/test-wiki2/wiki).
-
-Intel ReadMe version 2.0
 
 ***FAQ***
 
